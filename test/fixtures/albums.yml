@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  picCover: MyString
+  author: MyString
+  views: 1
+
+two:
+  picCover: MyString
+  author: MyString
+  views: 1

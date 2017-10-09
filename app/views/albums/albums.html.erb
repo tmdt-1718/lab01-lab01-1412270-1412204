@@ -1,2 +1,24 @@
 
-<h2> this is albums page </h2>
+<h2> Trang Album </h2>
+<h3> Danh sách các albums </h3>
+<div class="row" id="albumList" style="">
+	<% @albums.each do |albums| %>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<a href='albums/'<%=albums.id%>> <img src=<%=albums.picCover%> > </a>
+				
+				<p> <%=albums.author%> </p>
+				<p> <%=albums.views%> </p>
+				
+			</div> 
+		</div>
+	<% end %>
+</div>
+
+<style type="text/css">
+
+	#albumList {
+		padding-top: 30px;
+	}
+
+</style>

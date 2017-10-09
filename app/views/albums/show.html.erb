@@ -1,0 +1,18 @@
+<div class="breadcrumbs">
+    <ol class="breadcrumb">
+		<li><a href="">Home</a> &raquo;</li>
+		<li><a href="Albums">Album</a> &raquo;</li>
+		<li>Album</li>
+    </o>
+ </div>
+<div class="row" id="albumList" style="">
+	<% @pictures.each do |pictures| %>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src=<%= pictures.imaUrl %> >   
+				<p> <%=pictures.uploadBy%> </p>
+				<p> <%=pictures.views%> </p>
+			</div> 
+		</div>
+	<% end %>
+</div>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uploadBy: MyString
+  imaUrl: MyString
+  views: 1
+
+two:
+  uploadBy: MyString
+  imaUrl: MyString
+  views: 1
